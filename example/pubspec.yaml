@@ -1,0 +1,25 @@
+name: wv_user_agent_example
+description: Demonstrates how to use the wv_user_agent plugin
+
+publish_to: 'none'
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  wv_user_agent:
+    path: ../
+  webview_flutter: ^4.10.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
