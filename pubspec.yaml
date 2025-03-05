@@ -1,6 +1,6 @@
 name: wv_user_agent
-description: A simple Flutter plugin to get the user agent of the device using a native WebView.
-version: 1.0.0
+description: A simple Flutter plugin for retrieving the actual user agent of a device using the native WebView.
+version: 1.0.0+1
 homepage: https://github.com/jakkimcfly/wv_user_agent
 repository: https://github.com/jakkimcfly/wv_user_agent
 documentation: https://github.com/jakkimcfly/wv_user_agent

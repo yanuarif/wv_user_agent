@@ -23,13 +23,14 @@ class _MyAppState extends State<MyApp> {
     _loadUserAgent();
   }
 
+  // Fetches the actual User-Agent from the native WebView
   Future<void> _loadUserAgent() async {
     final ua = await WvUserAgent.userAgent;
     setState(() {
       _userAgent = ua;
     });
 
-    // Set user agent in WebView
+    // Initialize WebView with the fetched User-Agent
     _controller =
         WebViewController()
           ..setJavaScriptMode(JavaScriptMode.unrestricted)

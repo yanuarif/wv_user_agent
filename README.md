@@ -151,7 +151,3 @@ Feel free to [open an issue](https://github.com/jakkimcfly/wv_user_agent/issues/
 ## ✨ Support
 
 If you like this project, give it a ⭐ and share it with friends!
-
-<a href="https://www.buymeacoffee.com/jakkimcfly" target="_blank">
-<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 54px!important;">
-</a>
