@@ -1,5 +1,4 @@
-# [WebView User-Agent for Flutter (Android/iOS)](https://pub.dev/packages/wv_user_agent)
-
+# WebView User-Agent (Android/iOS)
 [![Pub](https://img.shields.io/pub/v/wv_user_agent.svg)](https://pub.dev/packages/wv_user_agent)
 [![Android/iOS](https://img.shields.io/badge/Platform-Android\/iOS-blue.svg?longCache=true&style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
@@ -109,7 +108,7 @@ class _MyAppState extends State<MyApp> {
     _loadUserAgent();
   }
 
-  /// Fetches the actual User-Agent from the native WebView
+  // Fetches the actual User-Agent from the native WebView
   Future<void> _loadUserAgent() async {
     final ua = await WvUserAgent.userAgent;
     setState(() {
@@ -147,7 +146,7 @@ class _MyAppState extends State<MyApp> {
 
 ## 💬 Questions?
 
-Feel free to [open an issue](http://github.com/jakkimcfly/wv_user_agent/issues/new/choose). 
+Feel free to [open an issue](https://github.com/jakkimcfly/wv_user_agent/issues/new/choose). 
 
 ## ✨ Support
 
