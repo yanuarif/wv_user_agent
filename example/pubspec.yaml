@@ -4,7 +4,7 @@ description: Demonstrates how to use the wv_user_agent plugin
 publish_to: 'none'
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.0.0
 
 dependencies:
   flutter:
